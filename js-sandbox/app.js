@@ -7,7 +7,7 @@
 */
 
 // PRIMITIVE
-
+// Directly being accessed from memory
 // String
 const name = "John Doe";
 // Number
@@ -21,6 +21,7 @@ let test;
 const sym = Symbol();
 
 // REFERENCE TYPES - Objects
+// Indirectly ccessed from memory as a reference
 // Array
 const hobbies = ["movies", "music"];
 // Object Literal
